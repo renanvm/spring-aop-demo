@@ -10,6 +10,11 @@ public class ShoppingCart {
         //Authentication and Authorization
         //Sanetize the ada
         System.out.println("Checkout method from demo.ShoppingCart called");
+        quantity();
+    }
+
+    public int quantity() {
+        return 2;
     }
 
 }
